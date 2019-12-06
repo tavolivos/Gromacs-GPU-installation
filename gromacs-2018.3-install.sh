@@ -12,6 +12,7 @@ tar -xzvf *.tar.gz
 mkdir build
 cd build
 cmake .. -DGMX_BUILD_OWN_FFTW=ON -DREGRESSIONTEST_DOWNLOAD=ON -DGMX_MPI=ON -DGMX_GPU=on -DGMX_USE_OPENCL=ON -DGMX_OPENMP=ON
+#optionally: cmake .. -DGMX_GPU=ON -DGMX_BUILD_OWN_FFTW=ON
 make 
 make check
 sudo make install
