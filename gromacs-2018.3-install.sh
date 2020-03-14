@@ -7,6 +7,8 @@
 # http://manual.gromacs.org/documentation/2018/install-guide/index.html
 # http://manual.gromacs.org/documentation/
 
+# Note: make sure you have already installed NVIDIA-ubuntu drivers and NVIDIA-toolkit, as well as the OPENCL included, for GPU mode.
+
 wget ftp://ftp.gromacs.org/pub/gromacs/gromacs-2018.3.tar.gz
 tar -xzvf *.tar.gz
 mkdir build
