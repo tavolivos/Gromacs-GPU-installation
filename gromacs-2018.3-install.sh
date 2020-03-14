@@ -13,6 +13,9 @@ mkdir build
 cd build
 cmake .. -DGMX_BUILD_OWN_FFTW=ON -DREGRESSIONTEST_DOWNLOAD=ON -DGMX_MPI=ON -DGMX_GPU=on -DGMX_USE_OPENCL=ON -DGMX_OPENMP=ON
 #optionally: cmake .. -DGMX_GPU=ON -DGMX_BUILD_OWN_FFTW=ON
+# if you find a problem with g++ version (7) pass the following commands:
+# sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-6 10
+# sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-6 10
 make 
 make check
 sudo make install
