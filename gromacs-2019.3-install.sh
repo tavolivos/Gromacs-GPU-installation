@@ -4,7 +4,6 @@
 
 # Check it out: 
 # https://www.nvidia.com/en-gb/data-center/gpu-accelerated-applications/gromacs/
-# http://manual.gromacs.org/documentation/2018/install-guide/index.html
 # http://manual.gromacs.org/documentation/
 
 # Note: make sure you have already installed NVIDIA-ubuntu drivers and NVIDIA-toolkit, for GPU mode.
