@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Usage:  bash gromacs-2019.3-install.sh
+# Usage:   bash gromacs-2019.3-install.sh
 
 # Check it out: 
 # https://www.nvidia.com/en-gb/data-center/gpu-accelerated-applications/gromacs/
