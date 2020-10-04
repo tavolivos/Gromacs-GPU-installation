@@ -1,2 +1,2 @@
-# Gromacs-MPI-GPU-installation
-A bash script to install Gromacs (MP/GPU).
+# Gromacs-GPU-installation
+A bash script to install Gromacs (GPU).
