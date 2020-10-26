@@ -9,8 +9,8 @@
 # Note: make sure you have already installed NVIDIA-ubuntu drivers and NVIDIA-toolkit, for GPU mode.
 
 wget ftp://ftp.gromacs.org/pub/gromacs/gromacs-2019.3.tar.gz
-tar -xzvf gromacs-2019.3..tar.gz
-cd gromacs-2019.3.
+tar -xzvf gromacs-2019.3.tar.gz
+cd gromacs-2019.3
 mkdir build
 cd build
 cmake .. -DGMX_BUILD_OWN_FFTW=ON -DREGRESSIONTEST_DOWNLOAD=ON -DGMX_GPU=ON -DGMX_OPENMP=ON
