@@ -27,3 +27,7 @@ sudo make install
 
 # Another option is to provide an alias to the PATH:
 # alias gmx='your-dir/gromacs-2018.3/build/bin/./gmx'
+
+#C variables
+#export CC=`which gcc`
+#export CXX=`which g++`
